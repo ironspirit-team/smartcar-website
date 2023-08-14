@@ -1,0 +1,7 @@
+[zh]
+  languageName = "简体中文"
+  contentDir = "content/zh"
+  weight = 10
+  [zh.params]
+    languageISO = "zh"
+    languageTag = "zh-Hans"
