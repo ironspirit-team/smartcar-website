@@ -1,9 +1,9 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "铁人战队"
+title = "铁人战队·智能车"
 titleSeparator = "-"
-titleAddition = "智能车项目组"
+titleAddition = "铁人战队智能车项目组"
 description = "铁人战队，一支专注于学科竞赛和科技创新的学生队伍，成立于2015年，所属西南石油大学电信院。"
 
 ## Documentation
@@ -11,7 +11,7 @@ description = "铁人战队，一支专注于学科竞赛和科技创新的学�
 
 ## Open Graph
 images = ["doks.png"]
-ogLocale = "en_US"
+ogLocale = "zh_CN"
 domainTLD = "doks.netlify.app"
 titleHome = "Doks Theme"
 
@@ -65,7 +65,7 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "由 <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, 以及 <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a> 提供支持"
 
 # Feed
 copyRight = "Copyright (c) 2020-2021 Henk Verlinde"

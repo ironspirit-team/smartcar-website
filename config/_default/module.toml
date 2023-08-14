@@ -40,6 +40,10 @@
   target = "assets/js/vendor/mermaid"
 
 [[mounts]]
+  source = "node_modules/aos"
+  target = "assets/js/vendor/aos"
+
+[[mounts]]
   source = "assets"
   target = "assets"
 

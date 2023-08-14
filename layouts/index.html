@@ -1,58 +1,123 @@
-{{ define "main" }}
-<section class="section container-fluid mt-n3 pb-3">
-  <div class="row justify-content-center">
-    <div class="col-lg-12 text-center">
-      <h1 class="mt-0">{{ .Title }}</h1>
-    </div>
-    <div class="col-lg-9 col-xl-8 text-center">
-      <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">Get Started</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
-    </div>
-  </div>
-</section>
-{{ end }}
-
 {{ define "sidebar-prefooter" }}
-<section class="section section-sm">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4">Security aware</h2>
-        <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks-child-theme.netlify.app">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Fast by default ⚡️</h2>
-        <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">SEO-ready</h2>
-        <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
-      </div>
-    </div>
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4">Full text search</h2>
-        <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Page layouts</h2>
-        <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Dark mode</h2>
-        <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
+<section>
+  <div class="landing-container">
+    <div data-aos="fade-up" class="landing-content container">
+      <div class="col-md-12 mx-auto text-center">
+        <img class="logo-img" src="/images/iron-logo.png" alt="Ironspirit logo" />
+        <h1 class="h1">铁人战队·智能车团队</h1>
+        <!--subtitle-->
+        <p class="lead">在这里追随学长学姐们坚定不移的脚步，见证梦想得到实现，见证付出得到回报，信任彼此，互相配合，力臻完美，追求巅峰。</p>
+        <a type="button" class="btn btn-outline-primary btn-lg" href="#qr-code">
+          加入我们
+        </a>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
 
-{{ define "sidebar-footer" }}
-<section class="section section-sm container-fluid">
-  <div class="row justify-content-center text-center">
-    <div class="col-lg-9">
-      {{- .Content -}}
+
+<section data-aos="fade-in" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <h2 class="border-side">以智能车竞赛为主的团队</h2>
+        <p class="lead">
+          我们是一个以智能车为主的团队，我们的目标是参加全国大学生智能车竞赛。除此以外我们还参加其他的比赛，比如全国大学生电子设计大赛，四川省机器人大赛等等。
+          在这些比赛中，我们取得了不错的成绩，也积累了丰富的经验。
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img class="rounded-3 w-100 h-100" src="/images/landing-intro-1.png" alt="智能车在赛道上行驶。" />
+      </div>
+    </div>
+  </div>
+</section>
+<section data-aos="fade-in" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="section-sm col-md-12">
+        <h2 class="border-side">队伍结构组成与管理</h2>
+        <p class="lead">
+          秉着最大化发挥每个人的优势，我们根据比赛内容对应的人员需求，将队伍划分为：电机与电源组、技术标准化组、传感器算法组、控制算法组。
+          每个组均有一名组长，负责组内的工作安排与进度管理。每一届比赛都会指定一名项目管理人员，负责整个智能车项目的进度管理与协调。
+        </p>
+      </div>
+    </div>
+    <!-- 用 div 模拟关系图 -->
+    <div class="row g-md-4">
+      <div class="card m-0 col-lg-4 col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">控制算法组</h5>
+          <p class="card-text">负责自动控制算法的设计与实现，是团队中极为重要的小组。</p>
+        </div>
+      </div>
+      <div class="card m-0 col-lg-4 col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">电机与电源组</h5>
+          <p class="card-text">负责电机与电源的选型、电路设计、电机驱动、电源管理等工作。</p>
+        </div>
+      </div>
+      <div class="card m-0 col-lg-4 col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">技术标准化组</h5>
+          <p class="card-text">负责智能车的机械结构设计、标准化零件的设计与制作、车体的组装等工作。</p>
+        </div>
+      </div>
+      <div class="card m-0 col-lg-4 col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">传感器算法组</h5>
+          <p class="card-text">负责传感器的选型、传感器的驱动、传感器数据的处理等工作。</p>
+        </div>
+      </div>
+    </div>
+</section>
+<section data-aos="fade-in" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="section-sm col-md-12">
+        <h2 class="border-side">时间线</h2>
+        <p class="lead">
+          这里记录了团队取得的成绩，以及团队的发展中的大事记。
+        </p>
+        <div>
+          <ul class="timeline">
+            <li>
+              <a href="#">2017 年</a>
+              <p>待补充的内容</p>
+            </li>
+            <li>
+              <a href="#">2016 年</a>
+              <p>待补充的内容</p>
+            </li>
+            <li>
+              <a href="#">2015 年</a>
+              <p>铁人战队成立</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section data-aos="fade-in" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="border-side">那么现在...考虑加入我们?</h2>
+        <p class="lead">
+          已经看到这里了，想必对我们有几分兴趣了吧？欢迎加入哦！扫描右侧的二维码，加入我们的招新 QQ 群吧！
+        </p>
+      </div>
+      <!--招新群二维码-->
+      <div class="col-md-4">
+        <a id="qr-code" target="_blank" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=oHrb7dI43hvI_sC6Ium3Rt5ejD5ot5YB&authKey=unkBFCe%2F0bkVMXDi8hUem65TWwumluBSz%2FVMacF8P4oAQmOCg3NAFU%2FtrIl468Oi&noverify=0&group_code=863606991">
+          <div class="qr-container">
+            <div class="qr-code">
+            </div>
+          </div>
+        </a>
+ 
+      </div>
     </div>
   </div>
 </section>

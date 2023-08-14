@@ -4,4 +4,5 @@
   weight = 10
   [zh.params]
     languageISO = "zh"
-    languageTag = "zh-Hans"
+    languageTag = "zh-CN"
+    
