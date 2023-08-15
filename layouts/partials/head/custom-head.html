@@ -1,3 +1,6 @@
 <!-- Custom head -->
 {{ $aoscss := resources.Get "js/vendor/aos/dist/aos.css" }}
 <link rel="stylesheet" href="{{$aoscss.RelPermalink}}">
+
+<!--CSP frame-src-->
+<meta http-equiv="Content-Security-Policy" content="frame-src https://*.bilibili.com/">
