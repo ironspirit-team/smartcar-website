@@ -91,7 +91,7 @@ Vscode 的安装非常简单，请在搜素引擎中搜索 Vscode，进入下载
 
 我们的主要开发工作是嵌入式 C 开发，因此我们需要安装一些 C 相关的插件。我们可以在 Vscode 的插件商店中搜索 C/C++，找到 C/C++ 插件并安装它。安装完成后，我们的 VScode 就具备了 C 开发的能力。
 
-### Keil Keil Assistant
+### Keil Assistant
 
 Keil Assistant 提供了在 Vscode 中管理 keil 项目的能力，我们可以在 Vscode 的插件商店中搜索 Keil Assistant，找到 Keil Assistant 并安装它。
 
