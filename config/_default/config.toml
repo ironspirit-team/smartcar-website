@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://smartcar.ironspirit.cn/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
