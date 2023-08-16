@@ -45,25 +45,6 @@
   url = "/blog/"
   weight = 20
 
-[[main]]
-  name = "开始学习"
-  weight = 30
-  identifier = "get-started"
-  url = "/docs/prologue/introduction/"
-
-[[main]]
-  name = "入门指路"
-  weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
-
-[[main]]
-  name = "发展路线"
-  weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
 
 [[social]]
   name = "GitHub"
