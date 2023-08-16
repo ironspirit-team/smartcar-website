@@ -1,0 +1,8 @@
+{{ $last := sub (len .Params.contributors) 1 }}
+<p><small>由 {{ if .Params.contributors -}}{{ range $index, $contributor := .Params.contributors }}{{ if gt $index 0
+        }}{{ if eq $index $last }} 以及 {{ else }}, {{ end }}{{ end }}<a class="stretched-link position-relative"
+            href="{{ "/contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end
+        -}}&nbsp;发表于&nbsp;{{ .PublishDate.Format "2006/01/02"
+        }}&nbsp;&hyphen;&nbsp;<strong>阅读这篇文章大约需要 {{
+            .ReadingTime -}}&nbsp;分钟</strong></small>
+<p>
