@@ -105,3 +105,13 @@ ul.timeline {
 		background-position: 0% 50%;
 	}
 }
+
+// Fix dark issue
+
+[data-dark-mode] body .card {
+    color: #8ed6fb
+}
+
+[data-dark-mode] body .card-body {
+    color: #8ed6fb
+}
