@@ -11,6 +11,8 @@ menu:
     parent: "junior-hardware"
 weight: 210
 toc: true
+aliases:
+  - /zh/docs/junior-hardware/introduction/
 ---
 
 为了避免初学者迷茫，我们在这里简单介绍一下智能车的硬件需求。以便了解后续学习的技能的用途。
