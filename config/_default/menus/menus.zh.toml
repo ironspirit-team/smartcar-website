@@ -30,7 +30,7 @@
 
 [[main]]
   name = "文档"
-  url = "/docs/prologue/how-to-ask-question/"
+  url = "/docs/prologue/01-how-to-ask-question/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
