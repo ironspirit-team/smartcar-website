@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "junior-hardware"
-weight: 140
+weight: 240
 toc: true
 ---
 在上一篇教程中，我们介绍了如何使用立创EDA绘制 PCB，绘制了一个简单的 LED 灯模块。在本篇教程中，我们将从概念的层面了解 PCB 的结构，以便更好的理解 PCB 的设计。

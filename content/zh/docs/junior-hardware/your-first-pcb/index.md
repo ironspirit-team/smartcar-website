@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "junior-hardware"
-weight: 130
+weight: 230
 toc: true
 ---
 
