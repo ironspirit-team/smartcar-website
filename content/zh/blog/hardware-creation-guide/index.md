@@ -4,7 +4,7 @@ description: ""
 excerpt: "硬件考核作品的制作指南，如果对硬件的考核题目有些迷茫，这篇文章应该可以帮助你。"
 date: 2023-09-20T06:06:03Z
 lastmod: 2023-09-20T06:06:03Z
-draft: false
+draft: true
 weight: 50
 images: [image.png]
 categories: []
