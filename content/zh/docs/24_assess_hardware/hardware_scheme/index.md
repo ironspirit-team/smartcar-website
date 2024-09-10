@@ -17,6 +17,8 @@ toc: true
 
 ## 降压电源
 
+小车常用12V航模锂电池作为电源，实验室有部分电池可使用，追求性能的队伍可自行购买合适的电池。
+
 降压电源芯片有dcdc和ldo两类，其中dcdc芯片通常用于压降较大的场景，ldo芯片用于压降较小的场景，智能车比赛通常使用dcdc将电源电压降至5-6V,后级使用ldo将电源电压降至3.3V给单片机及其他传感器供电
 
 dcdc芯片推荐使用[TPS5430](https://www.ti.com.cn/product/cn/TPS5430/part-details/TPS5430DDA),ldo芯片推荐使用[AMS1117](https://item.szlcsc.com/323882.html)

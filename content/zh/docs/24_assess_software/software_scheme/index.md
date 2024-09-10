@@ -17,7 +17,7 @@ toc: true
 
 ## 开发板选择
 
-考核限制使用沁恒mcu，推荐使用ch32v103c8t6, [购买链接](http://e.tb.cn/h.gpDuq3R2rnnneST?tk=h56036wUwDU)
+考核限制使用沁恒mcu，推荐使用ch32v103r8t6, [购买链接](http://e.tb.cn/h.gpDuq3R2rnnneST?tk=h56036wUwDU)
 下载器使用wch-link, [购买链接](http://e.tb.cn/h.gpO6SpUK9YJsc3M?tk=JwV936wNkZh)
 
 ![ch32v103c8t6](image.jpg)
