@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: ""
+    parent: "junior-software"
     identifier: "board-select-8bfc527e16c6d7cb10e8a69248fa83da"
 weight: 320
 toc: true
